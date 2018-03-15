@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testspringmvc1:war exploded">
+    <output-path>$PROJECT_DIR$/../testspringmvc/out/artifacts/testspringmvc1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springmvc1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springmvc1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="springioc" module-name="springmvc1" />
+          <element id="library" level="module" name="springmvc" module-name="springmvc1" />
+          <element id="library" level="module" name="springweb" module-name="springmvc1" />
+          <element id="library" level="module" name="jstl" module-name="springmvc1" />
+          <element id="library" level="module" name="bean2json" module-name="springmvc1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
